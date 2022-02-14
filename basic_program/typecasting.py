@@ -6,7 +6,13 @@ bool			P
 complex		N
 str			             *P         '''
 
-class Typecasting:
-	def check(self):
-	
-		
+class Typecasting:	
+	def display(self):
+		print("Cast to->\tint\tfloat\tbool\tComplex\tstr")
+		print("int\t\tP\tP\tP\tP\tP")
+		print("float\t\tP\tP\tP\tP\tP")
+		print("bool\t\tP\tP\tP\tP\tP")
+		print("complex\t\tN\tN\tP\tP\tP")
+		print("str\t\tN\tN\tP\tN\tP")
+c=Typecasting()
+c.display()
