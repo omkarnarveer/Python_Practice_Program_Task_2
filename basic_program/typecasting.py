@@ -77,7 +77,7 @@ class Typecasting:
 		
 c=Typecasting()
 while True:
-	print("***************MENU***************")
+	print(\n"***************MENU***************")
 	print("1.Integer Typecast")
 	print("2.Float Typecast")
 	print("3.Boolean Typecast")
@@ -86,7 +86,7 @@ while True:
 	print("6.Display Typecast Table")
 	print("7.Exit Program")
 	print("**********************************")
-	ch=int(input("Enter Your Choice: "))
+	ch=int(input("\nEnter Your Choice: "))
 	if ch==1:
 		c.typeint()
 	elif ch==2:
